@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Ayan Mallik A - Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffeb3b; /* Yellow background */
+            color: #000000; /* Black text */
+        }
+        .header {
+            background-color: #000000; /* Black header */
+            color: #ffeb3b; /* Yellow text */
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2rem;
+        }
+        .profile-photo {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .profile-photo img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 5px solid #000000; /* Black border for photo */
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+        .column {
+            flex: 1;
+            padding: 1rem;
+            background-color: white;
+            margin: 0 0.5rem;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #000000; /* Black footer */
+            color: #ffeb3b; /* Yellow text */
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .column {
+                flex: 100%;
+                margin: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Mohammed Ayan Mallik A</h1>
+    </div>
+    <div class="container">
+        <div class="profile-photo">
+            <img src="profile.jpg" alt="Profile Photo of Mohammed Ayan Mallik A">
+        </div>
+        <div class="row">
+            <div class="column">
+                <h2>About Me</h2>
+                <p>Hello! I am Mohammed Ayan Mallik A, a student pursuing B.Tech in Artificial Intelligence and Machine Learning at GM University Davanagere, Karnataka.</p>
+            </div>
+            <div class="column">
+                <h2>College and Course Details</h2>
+                <p><strong>College:</strong> GM University Davanagere</p>
+                <p><strong>Course:</strong> B.Tech in Artificial Intelligence and Machine Learning</p>
+                <p><strong>State:</strong> Karnataka</p>
+            </div>
+            <div class="column">
+                <h2>Contact Details</h2>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:ayanmallik1122@gmail.com">ayanmallik1122@gmail.com</a></li>
+                    <li><strong>Phone:</strong> <a href="tel:+916361664694">6361664694</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Mohammed Ayan Mallik A</p>
+    </div>
+</body>
+</html>
